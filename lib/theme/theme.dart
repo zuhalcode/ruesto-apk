@@ -1,6 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+class AppColors {
+  static const Color kBackgroundColor = Color(0xffE5E5E5);
+  static const Color kPrimaryBlueColor = Color(0xff3872C0);
+  static const Color kNeutralBlackColor = Color(0xff202C44);
+  static const Color kNeutralWhiteColor = Color(0xffFFFFFF);
+  static const Color kNeutralGreyColor = Color(0xff79808F);
+  static const Color kGreenColor = Color(0xff2C9559);
+  static const Color kOrangeColor = Color(0xffE48F44);
+  static const Color kSecondaryBlueColor = Color(0xff3791C5);
+  static const Color kRedColor = Color(0xff3791C5);
+  static const Color kYellowColor = Color(0xffFFB700);
+  static const Color kGreyColor = Color(0xff808080);
+}
+
 Color kBackgroundColor = const Color(0xffE5E5E5);
 Color kPrimaryBlueColor = const Color(0xff3872C0);
 Color kNeutralBlackColor = const Color(0xff202C44);

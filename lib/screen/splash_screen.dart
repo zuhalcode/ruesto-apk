@@ -14,7 +14,6 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
-    // TODO: implement initState
     Timer(const Duration(seconds: 5), () {
       Navigator.pushNamed(context, '/sign-in');
     });
